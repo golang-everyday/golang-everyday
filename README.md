@@ -55,5 +55,11 @@
 
 ## 开发工具
 
+* 建议配置CDPATH 环境变量，这样我们在任何地方都能进入 github 下的项目了
+
+  ![temp_paste_image_4486809a7891f1f021f88d41c9750b7c](https://ws3.sinaimg.cn/large/006tKfTcly1g1ofrduix4g30ep09vdfv.gif)
+
+* 
+
 **[⬆ 返回顶部](#目录)**
 
