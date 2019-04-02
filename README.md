@@ -59,6 +59,8 @@
 
   ![temp_paste_image_4486809a7891f1f021f88d41c9750b7c](https://ws3.sinaimg.cn/large/006tKfTcly1g1ofrduix4g30ep09vdfv.gif)
 
+* [vscode代码补全](https://github.com/Microsoft/vscode-go/blob/master/snippets/go.json)
+
 * 
 
 **[⬆ 返回顶部](#目录)**
