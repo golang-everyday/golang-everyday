@@ -26,6 +26,8 @@
 
 ## 编程题
 
+## 经典面试题
+
 ## 书籍下载
 
 ## 开源项目
@@ -34,11 +36,5 @@
 
 ## 开发工具
 
-## 贡献者
-
 **[⬆ 返回顶部](#目录)**
-
-<a href="https://github.com/golang-everyday/golang-everyday/graphs/contributors"><img src="https://opencollective.com/golang-everyday/contributors.svg?width=890" /></a>
-
-<img src="https://opencollective.com/golang-everyday/contributors.svg?width=890" />
 
