@@ -80,7 +80,5 @@
 
 * [vscode代码补全](https://github.com/Microsoft/vscode-go/blob/master/snippets/go.json)
 
-### 
-
 **[⬆ 返回顶部](#目录)**
 
