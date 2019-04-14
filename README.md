@@ -51,8 +51,6 @@
 **[⬆ 返回顶部](#目录)**
 
 ## 博客链接
-go版本protobuf 在windows系统下安装环境
-https://blog.csdn.net/u010230794/article/details/78606021
 
 **[⬆ 返回顶部](#目录)**
 
