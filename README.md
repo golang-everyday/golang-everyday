@@ -37,8 +37,37 @@
 
 ## 经典面试题
 
-* 使用两个 goroutine 交替打印一个打印数字一个字母   最后结果   12AB34CD56EF78GH910IJ [解答](https://play.golang.org/p/CWWN5kl8Mpx)
-* 输入一个 n，打印 n 阶数字螺旋 [解答](https://play.golang.org/p/M4iZ6aLhNA2)
+* 使用两个 goroutine 交替打印一个打印数字一个字母   最后结果   12AB34CD56EF78GH910IJ
+
+   [解答](https://play.golang.org/p/CWWN5kl8Mpx)
+
+* 输入一个 n，打印 n 阶数字螺旋
+
+  // n = 3        25 10 11 12 13
+  //              24  9  2  3 14
+  //              23  8  1  4 15
+  //              22  7  6  5 16
+  //              21 20 19 18 1
+
+   [解答](https://play.golang.org/p/M4iZ6aLhNA2)
+
+* 两个有序数组从小到大排列，例如：
+
+  1、2、3、4、5、6，
+
+  下一组
+
+  1、2、2、4、5、6
+
+  把它们快速合并为一个有序数组，从小到大排列。
+
+  留意时间和复杂度。
+
+  [解答](https://play.golang.org/p/BrSXW8vysaB)
+
+  [测试](https://play.golang.org/p/1HS2qCxlRip)
+
+  
 
 **[⬆ 返回顶部](#目录)**
 
