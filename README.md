@@ -38,6 +38,7 @@
 ## 经典面试题
 
 * 使用两个 goroutine 交替打印一个打印数字一个字母   最后结果   12AB34CD56EF78GH910IJ [解答](https://play.golang.org/p/CWWN5kl8Mpx)
+* 输入一个 n，打印 n 阶数字螺旋 [解答](https://play.golang.org/p/M4iZ6aLhNA2)
 
 **[⬆ 返回顶部](#目录)**
 
@@ -65,7 +66,7 @@
   | Go                     | Go 语言插件。                                                |
   | Terminal               | 命令行工具插件。                                             |
   | Vim                    | Vim 插件                                                     |
-  | VSCode Great Icons     | VSCode 美化不同的文件。                                      |
+  | VSCode Great Icons     | VSCode 美化不同的文件。re                                    |
   | WakaTime               | 统计项目代码的时间。                                         |
   | BetterComments         | 代码注释                                                     |
   | Beautify               | 格式化 js ，json，html 代码。                                |
