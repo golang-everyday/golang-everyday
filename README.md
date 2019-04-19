@@ -22,7 +22,7 @@
 
 ## Golang语法
 
-## Golang开发技巧
+## 🚀 Golang开发技巧
 
 - 使用 `go fmt` / `gofmt` 格式化你的代码 [e.g.](<https://github.com/golang-everyday/golang-everyday/blob/master/go-advice/format.md>)
 - 多个 if 语句尽量折叠成 switch
@@ -32,11 +32,11 @@
 - 为整型常量值实现 `Stringer` 接口
 - 用 defer 来检查你的错误
 
-## 编程题
+## 🖋 编程题
 
 **[⬆ 返回顶部](#目录)**
 
-## 经典面试题
+## 💸 经典面试题
 
 * 使用两个 goroutine 交替打印一个打印数字一个字母   最后结果   12AB34CD56EF78GH910IJ  [解答](https://play.golang.org/p/CWWN5kl8Mpx)
 * 输入一个 n，打印 n 阶数字螺旋 [解答](https://play.golang.org/p/M4iZ6aLhNA2)
@@ -46,20 +46,20 @@
 
 **[⬆ 返回顶部](#目录)**
 
-## 书籍下载
+## 📚 书籍下载
 
 **[⬆ 返回顶部](#目录)**
 
-## 开源项目
+## 💻 开源项目
 
 
 **[⬆ 返回顶部](#目录)**
 
-## 博客链接
+## 📝 博客链接
 
 **[⬆ 返回顶部](#目录)**
 
-## 开发工具
+## 🔨 开发工具
 
 * **vscode 插件**
 
@@ -88,8 +88,9 @@
 
 **[⬆ 返回顶部](#目录)**
 
+## 💐 贡献者
 
-
-<!-- ALL-CONTRIBUTORS-LIST: START - Do not remove or modify this section -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+|      [evolution-ant](https://github.com/evolution-ant)       |           [mxdwater](https://github.com/mxdwater)            |         [shalom1995](https://github.com/shalom1995)          |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <a href="https://github.com/evolution-ant"><img src="https://avatars1.githubusercontent.com/u/24502661?s=460&v=4" width="50px"></a> | <a href="https://github.com/mxdwater"><img src="https://avatars0.githubusercontent.com/u/40318632?s=400&v=4" width="50px"></a> | <a href="https://github.com/shalom1995"><img src="https://avatars1.githubusercontent.com/u/39236504?s=460&v=4" width="50px"></a> |
 
