@@ -24,7 +24,7 @@
 
 ## Golang开发技巧
 
-- 使用 `go fmt` / `gofmt` 格式化你的代码 [e.g.]()
+- 使用 `go fmt` / `gofmt` 格式化你的代码 [e.g.](<https://github.com/golang-everyday/golang-everyday/blob/master/go-advice/format.md>)
 - 多个 if 语句尽量折叠成 switch
 - 尽量用 `chan struct{}` 来传递信号, `chan bool` 表达的不够清楚
 - 总是把 for-select 换成一个函数
