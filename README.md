@@ -63,26 +63,28 @@
 
 * **vscode 插件**
 
-  | 插件名称               | 插件描述                                                     |
-  | ---------------------- | ------------------------------------------------------------ |
-  | GitLens                | 非常方便的查看文件代码的 commit 信息（提交时间，提交人等）。 |
-  | Code Runner            | 针对非常多的语言而快速方便执行的小插件。                     |
-  | filesize               | 在 VSCode 底部工具栏，非常方便的显示文件大小。               |
-  | Go                     | Go 语言插件。                                                |
-  | Terminal               | 命令行工具插件。                                             |
-  | Vim                    | Vim 插件                                                     |
-  | VSCode Great Icons     | VSCode 美化不同的文件。re                                    |
-  | WakaTime               | 统计项目代码的时间。                                         |
-  | BetterComments         | 代码注释                                                     |
-  | Beautify               | 格式化 js ，json，html 代码。                                |
-  | Auto Import            | 自动倒包                                                     |
-  | Bookmarks              | 好用的书签                                                   |
-  | Bracket Pair Colorizer | 多种颜色括号，结构清晰明了                                   |
-  | Code Runner            | 一键运行代码                                                 |
+  | 插件名称                                                     | 插件描述                                                     |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ |
+  | GitLens                                                      | 非常方便的查看文件代码的 commit 信息（提交时间，提交人等）。 |
+  | Code Runner                                                  | 针对非常多的语言而快速方便执行的小插件。                     |
+  | filesize                                                     | 在 VSCode 底部工具栏，非常方便的显示文件大小。               |
+  | Go                                                           | Go 语言插件。                                                |
+  | Terminal                                                     | 命令行工具插件。                                             |
+  | Vim                                                          | Vim 插件                                                     |
+  | VSCode Great Icons                                           | VSCode 美化不同的文件。re                                    |
+  | WakaTime                                                     | 统计项目代码的时间。                                         |
+  | BetterComments                                               | 代码注释                                                     |
+  | Beautify                                                     | 格式化 js ，json，html 代码。                                |
+  | Auto Import                                                  | 自动倒包                                                     |
+  | Bookmarks                                                    | 好用的书签                                                   |
+  | Bracket Pair Colorizer                                       | 多种颜色括号，结构清晰明了                                   |
+  | Code Runner                                                  | 一键运行代码                                                 |
+  | [gomodifytags](<https://github.com/fatih/gomodifytags>)      | Go tool to modify struct field tags                          |
+  | [Toggle between terminal and editor focus](<http://landcareweb.com/questions/1443/zai-visual-studio-codezhong-qie-huan-bian-ji-qi-he-ji-cheng-zhong-duan-zhi-jian-de-jiao-dian>) | Terminal 和编辑器之间焦点切换                                |
 
 * 建议配置CDPATH 环境变量，这样我们在任何地方都能进入 github 下的项目了
 
-  ![temp_paste_image_4486809a7891f1f021f88d41c9750b7c](https://ws3.sinaimg.cn/large/006tKfTcly1g1ofrduix4g30ep09vdfv.gif)
+  ![](https://i.loli.net/2019/05/10/5cd5482665ef6.png)
 
 * [vscode代码补全](https://github.com/Microsoft/vscode-go/blob/master/snippets/go.json)
 
