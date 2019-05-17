@@ -98,7 +98,7 @@ Understand Go pointers in less than 800 words or your money back [原文](https:
 
 ## 💐 贡献者
 
-|      [evolution-ant](https://github.com/evolution-ant)       |           [mxdwater](https://github.com/mxdwater)            |         [shalom1995](https://github.com/shalom1995)          |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <a href="https://github.com/evolution-ant"><img src="https://avatars1.githubusercontent.com/u/24502661?s=460&v=4" width="50px"></a> | <a href="https://github.com/mxdwater"><img src="https://avatars0.githubusercontent.com/u/40318632?s=400&v=4" width="50px"></a> | <a href="https://github.com/shalom1995"><img src="https://avatars1.githubusercontent.com/u/39236504?s=460&v=4" width="50px"></a> |
+|      [evolution-ant](https://github.com/evolution-ant)       |           [mxdwater](https://github.com/mxdwater)            |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <a href="https://github.com/evolution-ant"><img src="https://avatars1.githubusercontent.com/u/24502661?s=460&v=4" width="50px"></a> | <a href="https://github.com/mxdwater"><img src="https://avatars0.githubusercontent.com/u/40318632?s=400&v=4" width="50px"></a> |
 
