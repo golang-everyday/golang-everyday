@@ -24,7 +24,7 @@
 
 ## 🚀 Golang开发技巧
 
-- 使用 `go fmt` / `gofmt` 格式化你的代码 [e.g.](<https://github.com/golang-everyday/golang-everyday/blob/master/go-advice/format.md>)
+- 使用 `go fmt` / `gofmt` 格式化你的代码 [e.g.](https://github.com/golang-everyday/golang-everyday/blob/master/go-advice/format.md)
 - 多个 if 语句尽量折叠成 switch
 - 尽量用 `chan struct{}` 来传递信号, `chan bool` 表达的不够清楚
 - 总是把 for-select 换成一个函数
@@ -43,6 +43,12 @@
 * 两个有序数组从小到大排列，把它们快速合并为一个有序数组，从小到大排列。留意时间和复杂度。[解答](https://play.golang.org/p/BrSXW8vysaB) [测试](https://play.golang.org/p/1HS2qCxlRip)
 * Write a program to check whether a given number is an ugly number.
   Ugly numbers are positive numbers whose prime factors only include 2,3,5 [解答](https://play.golang.org/p/qhfJAkyX0nF) [测试](https://play.golang.org/p/SCvzxa1aULA)
+
+**[⬆ 返回顶部](#目录)**
+
+## 🗺 外文翻译
+
+Understand Go pointers in less than 800 words or your money back [原文](https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back) [译文](https://github.com/golang-everyday/golang-everyday/blob/master/translate/go-point.md)
 
 **[⬆ 返回顶部](#目录)**
 
