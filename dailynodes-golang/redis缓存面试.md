@@ -1,5 +1,3 @@
-#### 
-
 ### 1 **缓存穿透**
 
 #### 1.1 什么是缓存穿透
@@ -32,7 +30,7 @@ BloomFilter 类似于一个hbase set 用来判断某个元素（key）是否存�
 
 这种方案可以加在第一种方案中，在缓存之前在加一层 BloomFilter ，在查询的时候先去 BloomFilter 去查询 key 是否存在，如果不存在就直接返回，存在再走查缓存 -> 查 DB。
 
-https://github.com/golang-everyday/golang-everyday/blob/master/picture/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190415172254.png
+![微信图片_20190415172254.png](https://github.com/golang-everyday/golang-everyday/blob/master/picture/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190415172254.png?raw=true)
 
 #### 1.4 如何选择
 
@@ -90,7 +88,7 @@ https://github.com/golang-everyday/golang-everyday/blob/master/picture/%E5%BE%AE
 
 防止雪崩方案如下图所示：
 
-https://github.com/golang-everyday/golang-everyday/blob/master/picture/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190415174345.jpg
+![微信图片_20190415174345.jpg](https://github.com/golang-everyday/golang-everyday/blob/master/picture/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190415174345.jpg?raw=true)
 
 ### **4 解决热点数据集中失效问题**
 

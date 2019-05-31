@@ -42,7 +42,7 @@
 
 ​	ETCD-SERVER 大体上可以分为网络层，Raft模块，复制状态机，存储模块，架构图如图所示。
 
-![thread_local_impl_2_](https://oss.aliyuncs.com/yqfiles/94f36270eb8fd5e75fb744c78b33e7dfa709bd92.png)
+![94f36270eb8fd5e75fb744c78b33e7dfa709bd92.png](https://github.com/golang-everyday/golang-everyday/blob/master/picture/94f36270eb8fd5e75fb744c78b33e7dfa709bd92.png?raw=true)
 
 - 网络层：提供网络数据读写功能，监听服务端口，完成集群节点之间数据通信，收发客户端数据；
 
@@ -66,13 +66,16 @@
 
 - Follower将收的写操作转发给Leader;
 
-  
 
 ​       各个节点在任何时候都有可能变成Leader, Follower, Candidate等角色，为了减少创建链接开销，ETCD节点在启动之初就创建了和集群其他节点之间的长链接。每个节点会向其他节点宣告自己监听的端口，该端口只接受来自其他节点创建链接的请求。因此，ETCD集群节点之间的网络拓扑是一个任意2个节点之间均有长链接相互连接的网状结构。
+
+![de5daff21c3a6ef46d204494a1946bd380ee8296.png](https://github.com/golang-everyday/golang-everyday/blob/master/picture/de5daff21c3a6ef46d204494a1946bd380ee8296.png?raw=true)
 
 ### 节点之间消息交互
 
 ​	在ETCD实现中，消息采取了分类处理，抽象出了2种类型消息传输通道：Stream类型通道和Pipeline类型通道。这两种消息传输通道都使用HTTP协议传输数据，通过protocol buffer进行封装。
+
+![e53bbd1a314675f6a777e3c0c41705eaf758f6c9.png](https://github.com/golang-everyday/golang-everyday/blob/master/picture/e53bbd1a314675f6a777e3c0c41705eaf758f6c9.png?raw=true)
 
 - Stream类型通道：点到点之间维护HTTP长链接，主要用于传输数据量较小的消息，例如追加日志，心跳等。
 
@@ -83,8 +86,6 @@
   2）主动发起方发送HTTP GET请求；
 
   3）监听方的Handler的ServeHTTP访问被调用(框架层传入http.ResponseWriter和http.Request对象），其中http.ResponseWriter对象作为参数传入Writter-Goroutine，该Goroutine的主循环就是将Raft模块传出的message写入到这个responseWriter对象里；http.Request的成员变量Body传入到Reader-Gorouting，该Gorutine的主循环就是不断读取Body上的数据，decode成message 通过Channel传给Raft模块。
-
-  
 
 - Pipeline类型通道：点到点之间不维护HTTP长链接，短链接传输数据，用完即关闭。用于传输数据量大的消息，例如snapshot数据
 
