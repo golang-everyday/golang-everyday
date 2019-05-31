@@ -25,12 +25,49 @@
 ## 🚀 Golang开发技巧
 
 - 使用 `go fmt` / `gofmt` 格式化你的代码 [e.g.](https://github.com/golang-everyday/golang-everyday/blob/master/go-advice/format.md)
+
 - 多个 if 语句尽量折叠成 switch
+
 - 尽量用 `chan struct{}` 来传递信号, `chan bool` 表达的不够清楚
+
 - 总是把 for-select 换成一个函数
+
 - 分组定义 `const` 类型声明和 `var` 逻辑类型声明
+
 - 为整型常量值实现 `Stringer` 接口
+
 - 用 defer 来检查你的错误
+
+- 在使用 iota 时一定指定一中类型
+
+  e.g.
+
+  ```go
+  type TxType uint8
+  
+  const (
+  	Normal TxType = iota
+  	TorrentFile
+  )
+  ```
+
+- 从 map 中取值时，尽量判断 key 是否存在，否则当 key 不存在时会得到一个默认值
+
+  e.g.
+
+  ```go
+  value, ok := map["no_key"]
+  ```
+
+- 在读取 http body 时，一定不要忘了 close ，否则会造成内存泄露
+
+  e.g.
+
+  ```go
+  defer r.Body.Close()
+  ```
+
+  
 
 ## 🖋 编程题
 
