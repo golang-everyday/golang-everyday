@@ -64,7 +64,7 @@
   e.g.
 
   ```go
-  defer r.Body.Close()
+  
   ```
 
   
